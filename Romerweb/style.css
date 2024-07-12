@@ -1,0 +1,121 @@
+body{
+    background-color: #00063B;
+    color:  #fff;
+    font-family: monospace;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #043992;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px; /* Añade bordes redondeados */
+    margin: 0 10px; /* Espacio entre los botones */
+  }
+  
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0; 
+    list-style-type: none;
+}
+
+.greeting-section {
+    text-align: center;
+    
+}
+
+.greeting-section h1 {
+    font-size: 2.2rem;
+    margin-left: 60px;
+    height: 20px;
+}
+
+.greeting-section p{
+    font-size: 1.3rem;
+    margin-left: -30px;
+    margin: -25px;
+}
+
+header{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic{
+    display: flex;
+    justify-content: center;
+     margin-left: 55px; 
+    border-radius: 100px;
+    /* position: relative; */
+    /* left: 230px; */
+    /* top: -70px; */
+}
+
+.sm {
+    text-align: justify;
+    font-size: 1.4rem;
+    border: 1px solid red;
+}
+
+.sm h2{
+    font-size: 1.8rem;
+    padding-left: 80px;
+    margin: 20px;
+    
+}
+
+ .desc{
+    font-size: 1.1rem;
+    margin-left: 100px;
+    padding-right: 60px;
+} 
+
+.Educacion{
+    font-size: 1.4rem;
+    margin: 10px;
+    padding-left: 80px;
+    border: 1px solid red;
+    /* margin-right: 700px; */
+}
+
+/* .ht h4{
+    position: absolute;
+    right: 250px;
+    top: 100px;
+} */
+
+/* .tec{
+    padding-left: 400px;
+    padding-top: 100px;
+    border: 1px solid yellow;
+} */
+
+.tec ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0; 
+    list-style-type: none;
+}
+
+.tec ul li{
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+.container {
+    display: flex;
+}
+
+.no-wrap{
+    flex-wrap: nowrap;
+}
+
+.ht h4{
+    margin-left: 80px;
+}

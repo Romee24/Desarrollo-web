@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio Web</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#Sobre Mi">Sobre Mi</a></li>
+            <li><a href="#Proyectos">Proyectos</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="greeting-section">
+            <p>"Hola, Soy Romer Dev👋"</p>
+            <h1 id="Inicio">Frontend Developer</h1>
+        </div>
+        <img  class="profile-pic" src="jpg\R.jpg" alt="eladio" width="200" height="200">
+    </header>
+    <main>
+        <div class="sm">
+            <div>
+                <div><h2 id="Sobre-Mi">Sobre Mi</h2></div>
+                <div><p class="desc">¡Hola! Soy Romer Navarro, un apasionado Frontend Developer con experiencia en la creación de experiencias digitales atractivas y funcionales. Mi enfoque se centra en el diseño y desarrollo de interfaces de usuario intuitivas, responsivas y optimizadas para ofrecer la mejor experiencia de usuario posible</p></div>
+            </div>
+            
+            <section class="Educacion container">
+
+                    <div>
+                        <h3>Educacion</h3>
+                        <ul>
+                            <li>Ingenieria en computacion</li>
+                            <ul>
+                                <li><p>Univesidad Alonso de Ojeda</p></li>
+                                <li><p>2021 - Present</p></li>
+                            </ul>
+                            <li>Frontend Developer</li>
+                            <ul>
+                                <li><p>Udemy</p></li>
+                                <li><p>2022 - 2023</p></li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <aside class="ht">
+                        <h4>Habilidades Tecnicas</h4>
+                        <div class="tec">
+                            <ul>
+                                <li>Html</li>
+                                <li>Css</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                            </ul>
+                        </div>
+                    </aside>
+                    </section>
+            <section>
+                <h2 id="Proyectos">Proyectos</h2>
+                <ul>
+                    <li>
+                        <h3>Proyecto 1</h3>
+                        <a href="https://www.tesla.com/es_es" target="_blank"> 
+                            <img src="jpg\Proyecto tesla.png" alt="Pagina de Tesla" width="604" height="442">
+                        </a>
+                        <p>Proyecto: Pagina Web</p>
+                        <p>Para: Tesla</p>
+                        <p>Herramientas Utilizadas: Html, Css, JavaScript</p>
+                    </li>
+                    <li>
+                        <h3>Proyecto 2</h3>
+                        <a href="https://www.amazon.com/-/es/" target="_blank"> 
+                            <img src="jpg\Proyecto Amazon.jpg" alt="Pagina de Amazon" width="611px" height="397px">
+                        </a>
+                        <p>Proyecto: Pagina Web</p>
+                        <p>Para: Amazon</p>
+                        <p>Herramientas Utilizadas: Html, Css, JavaScript</p>
+                    </li>
+                </ul>
+            </section>
+            <Section>
+                <H2 id="Contacto">Contacto</H2>
+                <h3>¿Te gusta mi trabajo?</h3>
+                <p>No dudes en contactarme y dejarme un mensaje👇</p>
+                
+                <form  method="post" action="/">
+                    <fieldset>
+                        <legend>Formulario</legend>
+                        
+                        <label for="name">Nombre:</label>
+                        <input 
+                        type="text" name="name" id="name" placeholder="Romer Dev" required
+                        >
+                        <label for="Email">Email:</label>
+                        <input 
+                        type="email" name="Email" id="Email" placeholder="Example@gmail.com" required
+                        >
+                        <label for="Mensaje">Mensaje:</label>
+                        <input 
+                        type="text" name="Mensaje" id="Mensaje" placeholder="Mensaje" required
+                        >
+                        <button>Enviar</button>
+                    </fieldset>
+                </form>
+                
+            </Section>
+        </main>
+    </body>
+    
+    </html>
